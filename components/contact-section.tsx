@@ -13,14 +13,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+27 XX XXX XXXX",
-    href: "tel:+27000000000",
+    value: "0820552259",
+    href: "tel:0820552259",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@apexglass.co.za",
-    href: "mailto:info@apexglass.co.za",
+    value: "siphoglass@gmail.com",
+    href: "mailto:siphoglass@gmail.com",
   },
   {
     icon: MapPin,

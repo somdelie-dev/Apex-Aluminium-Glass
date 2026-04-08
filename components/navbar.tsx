@@ -50,15 +50,17 @@ export function Navbar() {
                 className="flex items-center gap-2 hover:opacity-90"
               >
                 <MapPin className="h-3.5 w-3.5" />
-                <span>Pretoria, Gauteng, South Africa</span>
+                <span>
+                  494 Republic Road, Kaalfontein EX 1, Midrand, Gauteng, 1632
+                </span>
               </a>
 
               <a
-                href="mailto:info@apexaluminium.co.za"
+                href="mailto:siphoglass@gmail.com"
                 className="flex items-center gap-2 hover:opacity-90"
               >
                 <Mail className="h-3.5 w-3.5" />
-                <span>info@apexaluminium.co.za</span>
+                <span>siphoglass@gmail.com</span>
               </a>
             </div>
 
@@ -114,23 +116,51 @@ export function Navbar() {
             )}
           >
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-sm bg-accent text-accent-foreground shadow-sm">
-                <svg viewBox="0 0 48 48" className="h-6 w-6">
+            <Link href="/" className="flex items-center gap-2">
+              <div className="relative w-10 h-10">
+                <svg viewBox="0 0 40 40" className="w-full h-full">
                   <path
-                    d="M10 38V12h28v26H10zm4-4h20V16H14v18zm8-18h4v18h-4V16zm-8 8h20v4H14v-4z"
+                    d="M20 2L4 38h6l10-24 10 24h6L20 2z"
                     fill="currentColor"
+                    className="text-black"
+                  />
+                  <rect
+                    x="14"
+                    y="20"
+                    width="12"
+                    height="8"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="text-black"
+                  />
+                  <line
+                    x1="20"
+                    y1="20"
+                    x2="20"
+                    y2="28"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    className="text-black"
+                  />
+                  <line
+                    x1="14"
+                    y1="24"
+                    x2="26"
+                    y2="24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    className="text-black"
                   />
                 </svg>
               </div>
-
-              <div className="leading-none">
-                <div className="text-xl font-extrabold tracking-tight text-primary">
-                  APEX
-                </div>
-                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-muted-foreground">
-                  Aluminium & Glass
-                </div>
+              <div className="flex flex-col">
+                <span className="text-lg font-bold text-black leading-tight">
+                  SILAMBA GLASS
+                </span>
+                <span className="text-[10px] font-medium text-black tracking-wider leading-none">
+                  ALUMINIUM & GLASS
+                </span>
               </div>
             </Link>
 
@@ -150,11 +180,11 @@ export function Navbar() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="tel:+27000000000"
+                href="tel:0820552259"
                 className="flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 <Phone className="h-4 w-4" />
-                <span>+27 00 000 0000</span>
+                <span>0820552259</span>
               </a>
 
               <Button
@@ -197,11 +227,11 @@ export function Navbar() {
 
                 <div className="mt-3 border-t border-border pt-4">
                   <a
-                    href="tel:+27000000000"
+                    href="tel:0820552259"
                     className="mb-3 flex items-center gap-2 text-sm font-medium text-muted-foreground"
                   >
                     <Phone className="h-4 w-4" />
-                    <span>+27 00 000 0000</span>
+                    <span>0820552259</span>
                   </a>
 
                   <Button asChild className="w-full rounded-sm">

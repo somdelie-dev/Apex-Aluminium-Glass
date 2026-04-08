@@ -65,7 +65,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-primary-foreground leading-tight">
-                  APEX
+                  SILAMBA GLASS AND ALUMINUM (PTY) LTD
                 </span>
                 <span className="text-[10px] font-medium text-primary-foreground/70 tracking-wider leading-none">
                   ALUMINIUM & GLASS
@@ -116,19 +116,19 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent" />
                 <a
-                  href="tel:+27000000000"
+                  href="tel:0820552259"
                   className="text-primary-foreground/70 hover:text-accent transition-colors text-sm"
                 >
-                  +27 XX XXX XXXX
+                  0820552259
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
                 <a
-                  href="mailto:info@apexglass.co.za"
+                  href="mailto:siphoglass@gmail.com"
                   className="text-primary-foreground/70 hover:text-accent transition-colors text-sm"
                 >
-                  info@apexglass.co.za
+                  siphoglass@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
